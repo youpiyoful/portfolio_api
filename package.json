@@ -1,0 +1,33 @@
+{
+  "name": "portfolio_api",
+  "version": "1.0.0",
+  "description": "an api for communication portfolio with my bdd project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello world\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpiyoful/portfolio_api.git"
+  },
+  "keywords": [
+    "[\"RESTful\"",
+    "\"API\"",
+    "\"Portfolio\"",
+    "\"Progressive\"]"
+  ],
+  "author": "Yoan Fornari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youpiyoful/portfolio_api/issues"
+  },
+  "homepage": "https://github.com/youpiyoful/portfolio_api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
