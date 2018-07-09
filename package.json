@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_api",
+  "version": "1.0.0",
+  "description": "portfolio pwa api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpiyoful/portfolio_api.git"
+  },
+  "keywords": [
+    "portfolio.api.pwa.restful.nodejs.nodemon"
+  ],
+  "author": "Yoan Fornari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youpiyoful/portfolio_api/issues"
+  },
+  "homepage": "https://github.com/youpiyoful/portfolio_api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
