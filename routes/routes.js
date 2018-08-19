@@ -1,7 +1,7 @@
 var db = require("./../db.js");
 var appRouter = function (app) {
-    app.get("/presentation", function (req, res) {
-        var result = db.query('SELECT nom, description, email_add       qress as email, phone_number as tel, linkedin_link as linkedin, github_link as github, places.place_name as entreprise, cities.city as ville FROM presentation INNER JOIN places ON presentation.place_id = places.id INNER JOIN cities ON places.city_id = cities.id', function (error, results, fields) {
+    app.get("/a_propos", function (req, res) {
+        var result = db.query('', function (error, results, fields) {
             //if error, print blank results
             if (error) {
                 // console.log(error);
